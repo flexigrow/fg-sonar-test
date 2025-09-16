@@ -19,6 +19,8 @@ export default function Dashboard() {
   const { items, getLowStockItems } = useInventoryStore();
   const { staff, getActiveStaff } = useStaffStore();
 
+  console.log("tasks", tasks);
+
   const completedTasks = tasks.filter(
     (task) => task.status === "completed"
   ).length;
