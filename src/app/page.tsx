@@ -139,7 +139,7 @@ export default function Dashboard() {
 
             <Card>
               <CardHeader>
-                <CardTitle>Low Stock Items</CardTitle>
+                <CardTitle>Low Stock Items 123</CardTitle>
                 <CardDescription>Items that need restocking</CardDescription>
               </CardHeader>
               <CardContent>
